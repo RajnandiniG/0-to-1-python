@@ -1,11 +1,6 @@
 #Play with list
 mylist = [0, 1, "two", 3.2, False]
-mytuple = (0, "eighteen", 2)
-mydict = {"one" : 1, "two" : 11}
-print(mylist[2])
-print(mytuple[1])
-print(mydict["two"]) # dictionaries are accessed via keys
-
+print(mylist[2]) #use index no to print value
 mylist.append(7) # append() if you want to add an element to the end of the list.
 mylist.insert(3, 6) # insert(index,value) if you want to add an element at a specific position in the list.
 print(mylist)
@@ -18,3 +13,11 @@ mylist.remove(7) # need to pass value, expects one arg
 print(mylist)
 mylist.clear() # to empty the list, no arg required
 print(mylist)
+
+#Remember the difference, list=[]; tuple=(); dictionary={}
+
+#Tuples & dict.
+mytuple = (0, "eighteen", 2) #immutuable, once defined cannot be changed
+mydict = {"one" : 1, "two" : 11}
+print(mytuple[1])
+print(mydict["two"]) # dictionaries are accessed via keys
