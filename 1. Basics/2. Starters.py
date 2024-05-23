@@ -19,3 +19,11 @@ elif kl.lower() == 'l':
     print('Your weight in kgs:',(weight)*0.45) # 1 lb = 0.453592 kg
 else:
     print('Invalid input')
+
+#Calculate down payment
+price=1_000000
+credit_score=False
+if credit_score:
+    print(f'Make a 10% payment:${0.1*price}')
+else:
+    print(f'Make 20% payment:${0.2*price}')
