@@ -1,3 +1,7 @@
+#Display calendar in shell type...
+#$ python -m calendar
+#$ python -m calendar 2054 12
+
 #Build simple addition calculator
 a = input('First number: ')
 b = input('Second number: ')
